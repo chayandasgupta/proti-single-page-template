@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Roboto+Slab:400,700|Vollkorn:400,400i,600i&display=swap');
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0px;
+	overflow-x: hidden;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin:0;
+}
+p, span, ul, li, a {
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+
+
+/*==========Header Css===============*/
+/*.header-top {
+    width: 100%;
+    background: #000000;
+    color: #fff;
+    padding: 9px 0px 5px 0px;
+}
+
+.header-top-title p {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'karla'
+}
+
+.follow-us {
+    display: flex;
+}
+
+.follow-us ul {
+    text-align: left;
+    margin: 0 auto;
+}
+
+.follow-us ul li {
+    margin: 0px 0px 0px 10px;
+}
+
+.follow-us ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    transition: all .5s;
+}
+
+.follow-us,.group-menu ul li a:hover {
+    color: #c9a46f;
+}
+*/
+
+
+/*===========Slider Common Css=============*/
+.owl-nav button.owl-prev, .owl-nav button.owl-next:focus,
+.owl-nav button.owl-prev, .owl-nav button.owl-next:hover {
+    outline: none;
+}
+
+.home-category-slide-inner .owl-dots{
+    display: none;
+}
+
+.owl-dots {
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: all .3s;
+    margin: 10px 0px;
+}
+
+ .owl-dots button.owl-dot {
+    height: 15px;
+    width: 15px;
+    background: #cccccc;
+    color: white;
+    border-radius: 50%;
+    margin: 15px 7px;
+}
+
+.owl-dots button.owl-dot.active {
+    background: #d1bea3;
+}
+
+.owl-dots button.owl-dot:focus,
+.owl-dots button.owl-dot:hover {
+    background-color: #d1bea3;
+    outline: none;
+}
+
+   /*when your slider loop is false then it work*/
+/*.category-slide-inner .owl-nav button.owl-prev.disabled, .category-slide-inner .owl-nav button.owl-next.disabled {
+    pointer-events: none;
+    opacity: 0.2;
+}
+.category-slide-inner .owl-nav button span {
+    margin-top: -10px;
+    display: block;
+}
+*/
+
+
+
